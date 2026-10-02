@@ -1,0 +1,48 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+whisper_env/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Whisper Downloaded Models & Caches
+whisper_models/
+*.bin
+*.pt
+*.onnx
+
+# Generated Datasets and Output Archives
+dataset/
+*.zip
+*.tar.gz
+
+# Local audio test files (if placed in root)
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+*.aac
+
+# IDE & Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
